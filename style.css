@@ -1,0 +1,26 @@
+:root{
+    --colortitles: darkred;
+}
+
+.sfondoheader{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 30%, rgba(0,0,0,0) 100%), url("./media/sfondoprincipale.jpg") ;
+    /* IMPORTANTE: PER AVERE UN IMMAGINE + SFUMATURA STRUTTURARE IL CODICE IN QUESTO MODO */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 90vh;
+}
+
+.titolo1{
+    font-family: Nova Square;
+    color: var(--colortitles);
+}
+
+
+
+
+
+
+
+/* mediaquery per montagna bianca da rimpicciolire da schermo grande */
