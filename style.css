@@ -1,9 +1,20 @@
 :root{
     --colortitles: darkred;
+    --firstfont: Nova Square;
+}
+
+.navcolor{
+    color: var(--colortitles) !important;
+}
+
+.navbar-nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .sfondoheader{
-    background: linear-gradient(180deg, rgba(255,255,255,1) 30%, rgba(0,0,0,0) 100%), url("./media/sfondoprincipale.jpg") ;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(0,0,0,0) 100%), url("./media/sfondoprincipale.jpg") ;
     /* IMPORTANTE: PER AVERE UN IMMAGINE + SFUMATURA STRUTTURARE IL CODICE IN QUESTO MODO */
     background-size: cover;
     background-position: center;
@@ -12,9 +23,12 @@
     height: 90vh;
 }
 
+
+
 .titolo1{
     font-family: Nova Square;
     color: var(--colortitles);
+    letter-spacing: 2vw;
 }
 
 
@@ -24,3 +38,12 @@
 
 
 /* mediaquery per montagna bianca da rimpicciolire da schermo grande */
+@media screen and (min-width:700px) {
+
+    .w-schermopc{
+        width: 90vw !important;
+        height: 70%;
+        left: 0px;
+    }
+    
+}
