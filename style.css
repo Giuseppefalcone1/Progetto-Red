@@ -1,5 +1,6 @@
 :root{
     --colortitles: darkred;
+    --biancoscuro: rgb(235, 235, 235);
     --firstfont: Nova Square;
 }
 
@@ -7,11 +8,16 @@
     color: var(--colortitles) !important;
 }
 
+/* ul */
 .navbar-nav{
-    width: 100vw;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* manda a capo di default  con schermo piccolo */
+    justify-content: center;
 }
+
+
 
 .sfondoheader{
     background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(0,0,0,0) 100%), url("./media/sfondoprincipale.jpg") ;
@@ -23,7 +29,9 @@
     height: 90vh;
 }
 
-
+.darkwhite{
+    background-color: var(--biancoscuro);
+}
 
 .titolo1{
     font-family: Nova Square;
@@ -31,8 +39,21 @@
     letter-spacing: 2vw;
 }
 
+.sezione1{
+    background-color: var(--biancoscuro);
+}
 
+h5{
+    font-family: var(--firstfont);
+    font-style: italic;
+    font-weight: 100;
+    padding: 10% 15%;
+}
 
+#p1{
+    color: var(--colortitles);
+    font-size: xx-large;
+}
 
 
 
@@ -45,5 +66,10 @@
         height: 70%;
         left: 0px;
     }
-    
+
+    .navbar-nav{
+        display: flex;
+
+    }
+
 }
