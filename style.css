@@ -57,6 +57,12 @@ h5{
 
 
 
+.iconesez1{
+    width:50%;
+}
+
+
+
 
 /* mediaquery per montagna bianca da rimpicciolire da schermo grande */
 @media screen and (min-width:700px) {
@@ -67,6 +73,10 @@ h5{
         left: 0px;
     }
 
+    .iconesez1{
+        width:30%;
+    };
+    
     .navbar-nav{
         display: flex;
 
