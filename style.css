@@ -39,15 +39,16 @@
     letter-spacing: 2vw;
 }
 
-.sezione1{
+.parte1{
     background-color: var(--biancoscuro);
 }
 
-h5{
+h6{
     font-family: var(--firstfont);
     font-style: italic;
     font-weight: 100;
     padding: 10% 15%;
+    color: rgb(94, 94, 94);
 }
 
 #p1{
@@ -55,17 +56,36 @@ h5{
     font-size: xx-large;
 }
 
-
-
 .iconesez1{
     width:50%;
 }
 
+h4{
+    color: var(--colortitles);
+    font-family: var(--firstfont);
+}
+
+.articolo{
+    font-family: var(--firstfont);
+    font-weight: lighter;
+}
+
+.rossoscuro{
+    color: var(--colortitles);
+}
+
+.primofont{
+    font-family: var(--firstfont);
+}
+
+.p-custom{
+    padding-right: 50%;
+}
 
 
 
 /* mediaquery per montagna bianca da rimpicciolire da schermo grande */
-@media screen and (min-width:700px) {
+@media screen and (min-width:600px) {
 
     .w-schermopc{
         width: 90vw !important;
@@ -74,8 +94,8 @@ h5{
     }
 
     .iconesez1{
-        width:30%;
-    };
+        width:40%;
+    }
     
     .navbar-nav{
         display: flex;
