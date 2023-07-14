@@ -25,8 +25,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .darkwhite{
@@ -39,15 +39,15 @@
     letter-spacing: 2vw;
 }
 
-.parte1{
+.sfondogrigio{
     background-color: var(--biancoscuro);
 }
 
-h6{
+h5{
     font-family: var(--firstfont);
     font-style: italic;
     font-weight: 100;
-    padding: 10% 15%;
+    padding: 8% 15%;
     color: rgb(94, 94, 94);
 }
 
@@ -78,9 +78,17 @@ h4{
     font-family: var(--firstfont);
 }
 
-.p-custom{
-    padding-right: 50%;
+.rounded-custom{
+
+    border-radius: 50%;
+    padding: 5px;
+    border: solid;
+    border-color: brown;
 }
+
+/* .altezzamax {
+     height: 50%;
+} */
 
 
 
