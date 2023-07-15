@@ -25,7 +25,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 95vh;
     height: 100vh;
 }
 
@@ -86,10 +86,15 @@ h4{
     border-color: brown;
 }
 
-/* .altezzamax {
-     height: 50%;
-} */
+.frossa{
+    width: 100%;
+}
 
+footer{
+
+    background-color: var(--colortitles);
+    
+}
 
 
 /* mediaquery per montagna bianca da rimpicciolire da schermo grande */
